@@ -1,7 +1,13 @@
+# WARNING:
+
+Feel free to use this script, but it's not very polished. I've published it for a few co-workers and myself.
+
 # Requirements:
 
 1. PyAc - https://github.com/kostajh/pyac
 1. Requests - http://docs.python-requests.org/en/latest/
+1. A working ActiveCollab site and working API key
+1. A working Toggl account with a working API token
 
 # Intro:
 
