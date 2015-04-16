@@ -30,7 +30,6 @@ config = ConfigParser.RawConfigParser()
 try:
     config.read(os.path.expanduser('~/.togglrc'))
     toggl_api_token = config.get('toggl', 'token')
-    print toggl_api_token
 except:
     LOG.error('Please create a ~/.togglrc file with your token. View README for setup instructions.')
 
