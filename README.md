@@ -44,7 +44,9 @@ of which time entries have been synced. This information is stored in `~/.actogg
     1. `cd ~/3rdparty/pyac`
     1. `sudo python setup.py install`
 1. Create `~/.acrc` file:<pre>url=https://myactivecollaburl.com/api.php<br/>key=4-q3qb33XITWyYpdmFCwh9931Bwzk3giTw7yY2kvK7<br/>user_id=4</pre>
+    1. Use your own values, of course
 1. Create `~/.togglrc` file:<pre>[toggl]<br/>token=e0926359d8c73bbe7ab136d042530d9a</pre>
+    1. Use your own token
 1. Run `actoggltimeimport.py` as often as you need to. It will only send each time entry to ActiveCollab once.
 
 # Examples:
